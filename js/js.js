@@ -1,9 +1,13 @@
-// docready
-$(document).ready(function() {
-    
-});
+(function(){
 
-// docload
-$(document).load(function() {
+    // docready
+    $(document).ready(function() {
     
-});
+    });
+
+    // docload
+    $(document).load(function() {
+    
+    });
+    
+})();
