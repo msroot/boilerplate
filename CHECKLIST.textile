@@ -1,0 +1,13 @@
+*Implementation checklist*
+
+If you're using this boilerplate package in a production site, here's a little list of things to update out of the box:
+
+* Have you customised your page title?
+* Have you customised your meta tags?
+* Have you customised the Open Graph tags?
+* Have you filled in your robots.txt and humans.txt files?
+* Have you added a favicon and web app icons as necessary?
+* Have you updated the DD_belatedPNG selector to properly pick out your transparent PNGs?
+* Have you updated the Google Analytics code to include the correct site ID?
+
+* Lastly, you might want to clean up the following files, so nobody will know you used this package, muahaha: CHECKLIST.textile (this file), LICENSE, README.textile

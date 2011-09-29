@@ -6,7 +6,7 @@ Inspired by the rather super "HTML5 Boilerplate":http://html5boilerplate.com/ bu
 
 A few features...
 * HTML5, natch
-* IE-sniffing classes on <html> tag, for tidy IE fixes
+* IE-sniffing classes on html tag, for tidy IE fixes
 * (also includes stub IE8/IE7/IE6 stylesheets loaded with conditional comments; you can use one or the other)
 * sensible basic meta tags, including Open Graph data stubs
 * stub robots.txt, humans.txt and favicon/iOS web app icon references
