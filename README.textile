@@ -1,0 +1,20 @@
+h1. boilerplate
+
+h5. by BigglesZX
+
+Inspired by the rather super "HTML5 Boilerplate":http://html5boilerplate.com/ but with a load of my own wild and probably irresponsible customisations.
+
+A few features...
+* HTML5, natch
+* IE-sniffing classes on <html> tag, for tidy IE fixes
+* (also includes stub IE8/IE7/IE6 stylesheets loaded with conditional comments; you can use one or the other)
+* sensible basic meta tags, including Open Graph data stubs
+* stub robots.txt, humans.txt and favicon/iOS web app icon references
+* basic reset (Meyer 2.0) stylesheet with a few sensible additions, plus stub print stylesheet
+* stub mobile stylesheet with 480px media query and desktop-only/mobile-only hiding rules
+* head.js loader to asynchronously load jQuery, Modernizer dev build and custom behavioural JS (stub)
+* for IE, IE Print Protector and Selectivizr are loaded with head.js too (you can remove IEPP if you include it in your own Modernizer build)
+* for IE6, DD_belatedPNG is loaded too
+* Google Analytics stub
+
+Share and enjoy...

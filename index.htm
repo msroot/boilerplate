@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]> <html lang='en' dir='ltr' class='ie6 no-js'> <![endif]-->
+<!--[if IE 7 ]>    <html lang='en' dir='ltr' class='ie7 no-js'> <![endif]-->
+<!--[if IE 8 ]>    <html lang='en' dir='ltr' class='ie8 no-js'> <![endif]-->
+<!--[if IE 9 ]>    <html lang='en' dir='ltr' class='ie9 no-js'> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html lang='en' dir='ltr' class='not-ie no-js'> <!--<![endif]-->
+    <head>
+        <title> boilerrrrrplate. </title>
+
+        <!-- meta tags -->
+        <meta charset='utf-8' />
+        <meta name='viewport' content='width=device-width, initial-scale=1.0, user-scalable=yes' />
+        <meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1' />
+
+        <meta name='keywords' content='boilerplate, boilers, plates, that sort of thing' />
+        <meta name='description' content='boilerrrrrplate HTML/CSS/JS' />
+        <meta name='author' content='John Smith' />
+        <meta name='distribution' content='Global' />
+        <meta name='revisit-after' content='7 days' />
+        <meta name='copyright' content='Copyright 2011 boilerrrrrplate' />
+        <meta name='robots' content='FOLLOW,INDEX' />
+        
+        <!-- opengraph data - customise these -->
+        <meta property='og:title' content='boilerrrrplate' />
+        <meta property='og:description' content='boilerplate html/css/js' />
+        <meta property='og:image' content='images/favicon.ico' />
+        
+        <!-- icons and stuff -->
+        <link rel='author' href='humans.txt' />
+        <link rel='icon' href='images/favicon.ico' type='image/x-icon' />
+        <link rel='shortcut icon' href='images/favicon.ico' type='image/x-icon' />
+        <!-- don't forget to include web app icons as described here:
+            http://www.luscarpa.com/development/make-your-website-an-iphone-web-application/
+            http://mathiasbynens.be/notes/touch-icons
+        -->
+        
+        <!-- stylesheets -->
+        <link rel='stylesheet' href='css/screen.css' type='text/css' media='screen' />
+        <link rel='stylesheet' href='css/print.css' type='text/css' media='print' />
+        <!--[if !IE]>-->
+            <link rel='stylesheet' href='css/mobile.css' type='text/css' media='only screen and (max-width:480px)' />
+        <!--<![endif]-->
+        
+        <!-- stylesheets for ie fixes -->
+        <!--[if IE 8]>
+            <link rel='stylesheet' href='css/ie8.css' type='text/css' media='screen' />
+        <![endif]-->
+        <!--[if IE 7]>
+            <link rel='stylesheet' href='css/ie7.css' type='text/css' media='screen' />
+        <![endif]-->
+        <!--[if IE 6]>
+            <link rel='stylesheet' href='css/ie6.css' type='text/css' media='screen' />
+        <![endif]-->
+        
+        
+        <!-- javascript -->
+        <script type='text/javascript' src='js/head.load.min.js'></script>
+        <script type='text/javascript'>
+            head.js(
+                'js/jquery-1.6.4.min.js',
+                'js/modernizer-2.0.6.development.js',
+                'js/js.js'
+            );
+        </script>
+        <!--[if IE]>
+            <script type='text/javascript'>
+                head.js(
+                    'js/iepp.1-6-2.min.js',
+                    'js/selectivizr.js'
+                );
+            </script>
+        <![endif]-->
+        <!--[if IE 6]>
+            <meta http-equiv='imagetoolbar' content='no' />
+            <script type='text/javascript'>
+                head.js(
+                    'js/DD_belatedPNG_0.0.8a-min.js',
+                    function() {
+                        // customise the selector below
+                        DD_belatedPNG.fix('img, .pngbg');
+                    }
+                );
+            </script>
+        <![endif]-->
+        
+        <!-- google analytics -->
+        <script type='text/javascript'>
+
+          var _gaq = _gaq || [];
+          _gaq.push(['_setAccount', 'YOUR-GA-ID-HERE']);
+          _gaq.push(['_trackPageview']);
+
+          (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+          })();
+
+        </script>
+        
+    </head>
+    
+    <body>
+        <div id='container'>
+            <header>
+                boilerrrplate
+            </header>
+            <div id='main' role='main'>
+                Oh hai!
+            </div>
+            <footer>
+                
+            </footer>
+        </div>
+    </body>
+</html>
