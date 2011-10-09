@@ -12,8 +12,8 @@ A few features...
 * stub robots.txt, humans.txt and favicon/iOS web app icon references
 * basic reset (Meyer 2.0) stylesheet with a few sensible additions, plus stub print stylesheet
 * stub mobile stylesheet with 480px media query and desktop-only/mobile-only hiding rules
-* head.js loader to asynchronously load jQuery, Modernizer dev build and custom behavioural JS (stub)
-* for IE, IE Print Protector and Selectivizr are loaded with head.js too (you can remove IEPP if you include it in your own Modernizer build)
+* head.js loader to asynchronously load jQuery, Modernizr dev build and custom behavioural JS (stub)
+* for IE, IE Print Protector and Selectivizr are loaded with head.js too (you can remove IEPP if you include it in your own Modernizr build)
 * for IE6, DD_belatedPNG is loaded too
 * Google Analytics stub
 
